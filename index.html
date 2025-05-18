@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boggle Game Solver</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Boggle Game Solver</h1>
+  <div class="controls">
+    <button onclick="randomizeBoard()">Random Board</button>
+    <button onclick="startTimer()">Start Game (1 min)</button>
+    <input type="file" accept=".txt" onchange="loadDictionary(event)" />
+    <span id="timer">60</span> seconds left
+  </div>
+  <div class="board" id="board"></div>
+  <button onclick="solveBoard()">Solve</button>
+  <div class="results">
+    <h3>Found Words:</h3>
+    <ul id="wordList"></ul>
+  </div>
+</body>
+</html>

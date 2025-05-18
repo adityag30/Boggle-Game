@@ -21,11 +21,11 @@ boggle-solver/
 ├── script.js # Game logic and interactivity
 
 
-## ✅ To-Do (Optional Enhancements)
+## ✅ To-Do Updates
 
 - Add difficulty levels (3x3, 5x5 grid)
 - Save and display high scores
-- Mobile-friendly touch support
+- Reset Button 
 
 ---
 

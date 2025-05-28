@@ -24,8 +24,8 @@ boggle-solver/
 ## ✅ To-Do Updates
 
 - Add difficulty levels (3x3, 5x5 grid)
-- Save and display high scores
-- Reset Button 
+- Introduce multiplayer mode
+- Mobile Application 
 
 ---
 
